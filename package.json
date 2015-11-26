@@ -1,6 +1,6 @@
 {
   "name": "vigour-spawn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/index.js",
   "bin": {
@@ -25,10 +25,6 @@
     "url": "https://github.com/vigour-io/spawn/issues"
   },
   "homepage": "https://github.com/vigour-io/spawn#readme",
-  "engines": {
-
-  },
-  "dependencies": {
-
-  }
+  "engines": {},
+  "dependencies": {}
 }
