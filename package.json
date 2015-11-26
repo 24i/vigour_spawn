@@ -1,0 +1,31 @@
+{
+  "name": "vigour-spawn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vigour-io/spawn.git"
+  },
+  "keywords": [
+    "spawn"
+  ],
+  "author": "Vigour",
+  "contributors": [
+    "Shawn Inder <shawn@vigour.io>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vigour-io/spawn/issues"
+  },
+  "homepage": "https://github.com/vigour-io/spawn#readme",
+  "engines": {
+
+  },
+  "dependencies": {
+
+  }
+}
