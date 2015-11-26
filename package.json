@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
+  "bin": {
+    "spawn": "bin/spawn.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
