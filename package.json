@@ -26,5 +26,8 @@
   },
   "homepage": "https://github.com/vigour-io/spawn#readme",
   "engines": {},
-  "dependencies": {}
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "npmlog": "^2.0.0"
+  }
 }
