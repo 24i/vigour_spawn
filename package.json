@@ -7,7 +7,7 @@
     "spawn": "bin/spawn.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gaston test -r node"
   },
   "repository": {
     "type": "git",
@@ -29,5 +29,19 @@
   "dependencies": {
     "lodash": "^3.10.1",
     "npmlog": "^2.0.0"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it",
+      "assert",
+      "expect",
+      "should",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach",
+      "sinon"
+    ]
   }
 }
