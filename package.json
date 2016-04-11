@@ -7,7 +7,7 @@
     "spawn": "bin/spawn.js"
   },
   "scripts": {
-    "test": "gaston test -r node",
+    "test": "node test | tap-difflet",
     "fail": "abracadabrrapp"
   },
   "repository": {
@@ -28,8 +28,9 @@
   "homepage": "https://github.com/vigour-io/spawn#readme",
   "engines": {},
   "dependencies": {
-    "lodash": "^3.10.1",
-    "npmlog": "^2.0.0"
+    "lodash.isarray": "^4.0.0",
+    "lodash.isplainobject": "^4.0.4",
+    "npmlog": "^2.0.3"
   },
   "standard": {
     "globals": [
@@ -44,5 +45,9 @@
       "afterEach",
       "sinon"
     ]
+  },
+  "devDependencies": {
+    "tap-difflet": "^0.4.0",
+    "tape": "^4.5.1"
   }
 }
